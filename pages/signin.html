@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link href="../style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container-fluid navbar-main">Personal Blogging App
+    <li class="nav-item">
+      <a id="signin" class="nav-link" href="./pages/signin.html" onclick="logout();">SignIn</a>
+    </li>
+    </div>
+  </nav>
+  <form>
+    <div class=container>
+        <input type="text" class="input" placeholder="Enter Your First Name" >
+        <input type="text" class="input" placeholder="Enter Your Last Name">
+        <input type="email address" class="input"placeholder="Enter Your Valid Email Address">
+        <input type="phone number" class="input"placeholder="Enter Your Password">
+        <input type="phone number" class="input"placeholder="Enter Your Repeat Password">
+        <div>
+        <button type="submit" class="btn">Signup</button> 
+        </div>
+        </div>
+      </form>
+    <!-- Include Firebase SDKs from CDN -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script type="text/javascript" src="../js/firebase.js"></script>
+</body>
+</html>
